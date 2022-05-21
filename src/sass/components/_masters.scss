@@ -55,8 +55,11 @@ body {
     height: 0px;
   }
   @media screen and (min-width: $desktop) {
-    width: 817px;
-    height: 230px;
+    width: 997px;
+    height: 130px;
+    transform: rotate(148deg);
+    margin-left: 190px;
+    margin-top: 40px;
   }
 }
 
