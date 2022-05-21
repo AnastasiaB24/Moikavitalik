@@ -57,6 +57,9 @@
   }
 }
 
+.field-item {
+  display: flex;
+}
 // Форма онлайн-записи
 .clients-form {
   @media screen and (max-width: 1279px) {

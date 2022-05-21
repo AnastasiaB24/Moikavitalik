@@ -201,6 +201,11 @@
     width: calc((100% / 2) - 30px);
   }
 }
+.logo_contacts {
+  fill: palevioletred;
+  @extend %link;
+  margin-right: 50px;
+}
 
 .form-field-textarea {
   display: flex;
