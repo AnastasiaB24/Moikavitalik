@@ -1,11 +1,4 @@
 .slider {
-  max-width: 1600px;
-  // margin-left: auto;
-  // margin-right: auto;
-  // outline: 1px solid black;
-  // background-repeat: no-repeat;
-  // background-position: center;
-  // background-size: cover;
   @extend %list;
   position: absolute;
   top: 0;
@@ -23,14 +16,10 @@
 }
 
 .slider-item {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  // display: none;
+  display: none;
   height: 100%;
-  // background-repeat: no-repeat;
-  // background-position: right;
-
+  background-repeat: no-repeat;
+  background-position: right;
   &.active {
     display: block;
   }

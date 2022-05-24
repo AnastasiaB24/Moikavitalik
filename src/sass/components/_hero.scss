@@ -16,6 +16,83 @@
     );
   }
 }
+.over {
+  // max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  // outline: 1px solid black;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  @media screen and (max-width: 479px) {
+    height: 826px;
+    background-image: url('../images/car_wash001.jpg'),
+      linear-gradient(to right, $bgPricesSectColor, $bgPricesSectColor);
+  }
+  @media screen and (min-width: 1600px) {
+    background-size: contain;
+  }
+}
+
+@media (min-resolution: 2dppx) {
+  .overlay {
+    background-image: url('../images/car_wash001.jpg'),
+      linear-gradient(to right, $bgPricesSectColor, $bgPricesSectColor);
+  }
+}
+
+@media screen and (min-width: $mobile) {
+  .overlay {
+    background-image: url('../images/car_wash001.jpg'),
+      linear-gradient(to right, $bgPricesSectColor, $bgPricesSectColor);
+  }
+}
+
+@media screen and (min-width: $mobile) and (min-resolution: 2dppx) {
+  .overlay {
+    background-image: url('../images/car_wash001.jpg'),
+      linear-gradient(to right, $bgPricesSectColor, $bgPricesSectColor);
+  }
+}
+
+@media screen and (min-width: $desktop) {
+  .overlay {
+    background-image: url('../images/car_wash001.jpg'),
+      linear-gradient(to right, $bgFooterColor, $bgFooterColor);
+  }
+}
+
+@media screen and (min-width: $desktop) and (min-resolution: 2dppx) {
+  .overlay {
+    background-image: url('../images/car_wash001.jpg'),
+      linear-gradient(to right, $bgPricesSectColor, $bgPricesSectColor);
+  }
+}
+
+.services-hero {
+  display: inline-block;
+  position: relative;
+  margin-left: 80px;
+  margin-bottom: 20px;
+  color: $textTrColor;
+  font-family: $textFont;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  /* identical to box height */
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  &::before {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 7px;
+    left: -80px;
+    background-color: $textTrColor;
+    width: 60px;
+    height: 1px;
+  }
+}
 
 .hero-container {
   position: relative;

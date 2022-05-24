@@ -89,7 +89,7 @@
   background-size: cover;
   @media screen and (max-width: 479px) {
     height: 826px;
-    background-image: url('../images/prices.jpg'),
+    background-image: url('../images/prices1.jpg'),
       linear-gradient(to right, $bgPricesSectColor, $bgPricesSectColor);
   }
   @media screen and (min-width: 1600px) {
@@ -99,35 +99,35 @@
 
 @media (min-resolution: 2dppx) {
   .overlay {
-    background-image: url('../images/prices.jpg'),
+    background-image: url('../images/prices1.jpg'),
       linear-gradient(to right, $bgPricesSectColor, $bgPricesSectColor);
   }
 }
 
 @media screen and (min-width: $mobile) {
   .overlay {
-    background-image: url('../images/prices.jpg'),
+    background-image: url('../images/prices1.jpg'),
       linear-gradient(to right, $bgPricesSectColor, $bgPricesSectColor);
   }
 }
 
 @media screen and (min-width: $mobile) and (min-resolution: 2dppx) {
   .overlay {
-    background-image: url('../images/prices.jpg'),
+    background-image: url('../images/prices1.jpg'),
       linear-gradient(to right, $bgPricesSectColor, $bgPricesSectColor);
   }
 }
 
 @media screen and (min-width: $desktop) {
   .overlay {
-    background-image: url('../images/prices.jpg'),
+    background-image: url('../images/prices1.jpg'),
       linear-gradient(to right, $bgFooterColor, $bgFooterColor);
   }
 }
 
 @media screen and (min-width: $desktop) and (min-resolution: 2dppx) {
   .overlay {
-    background-image: url('../images/prices.jpg'),
+    background-image: url('../images/prices1.jpg'),
       linear-gradient(to right, $bgPricesSectColor, $bgPricesSectColor);
   }
 }
