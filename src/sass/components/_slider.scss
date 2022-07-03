@@ -54,54 +54,54 @@
   }
   &:nth-child(2) {
     @media screen and (max-width: $tablet - 1px) {
-      @include slider-image(url(../images/car_wash002.jpg));
+      @include slider-image(url(../images/moika_car_2.jpg));
     }
     @media screen and (min-device-pixel-ratio: 2),
       screen and (min-resolution: 192dpi),
       screen and (min-resolution: 2dppx) {
-      @include slider-image(url(../images/car_wash002.jpg));
+      @include slider-image(url(../images/moika_car_2.jpg));
     }
     @media screen and (min-width: $tablet) {
-      @include slider-image(url(../images/car_wash002.jpg));
+      @include slider-image(url(../images/moika_car_2.jpg));
       @media screen and (min-device-pixel-ratio: 2),
         screen and (min-resolution: 192dpi),
         screen and (min-resolution: 2dppx) {
-        @include slider-image(url(../images/car_wash002.jpg));
+        @include slider-image(url(../images/moika_car_2.jpg));
       }
     }
     @media screen and (min-width: $desktop) {
-      @include slider-image(url(../images/car_wash002.jpg));
+      @include slider-image(url(../images/moika_car_2.jpg));
       @media screen and (min-device-pixel-ratio: 2),
         screen and (min-resolution: 199dpi),
         screen and (min-resolution: 2dppx) {
-        @include slider-image(url(../images/car_wash002.jpg));
+        @include slider-image(url(../images/moika_car_2.jpg));
       }
     }
   }
   &:nth-child(3) {
     @media screen and (max-width: $tablet - 1px) {
       background: linear-gradient(rgba(16, 18, 24, 0.2) 100%);
-      @include slider-image(url(../images/moika2.jpg));
+      @include slider-image(url(../images/moika_car_1.jpg));
       @media screen and (min-device-pixel-ratio: 2),
         screen and (min-resolution: 192dpi),
         screen and (min-resolution: 2dppx) {
-        @include slider-image(url(../images/moika2.jpg));
+        @include slider-image(url(../images/moika_car_1.jpg));
       }
     }
     @media screen and (min-width: $tablet) {
-      @include slider-image(url(../images/moika2.jpg));
+      @include slider-image(url(../images/moika_car_1.jpg));
       @media screen and (min-device-pixel-ratio: 2),
         screen and (min-resolution: 192dpi),
         screen and (min-resolution: 2dppx) {
-        @include slider-image(url(../images/moika2.jpg));
+        @include slider-image(url(../images/moika_car_1.jpg));
       }
     }
     @media screen and (min-width: $desktop) {
-      @include slider-image(url(../images/moika2.jpg));
+      @include slider-image(url(../images/moika_car_1.jpg));
       @media screen and (min-device-pixel-ratio: 2),
         screen and (min-resolution: 192dpi),
         screen and (min-resolution: 2dppx) {
-        @include slider-image(url(../images/moika2.jpg));
+        @include slider-image(url(../images/moika_car_1.jpg));
       }
     }
   }
